@@ -177,5 +177,5 @@ species(name = "O(S)",
 #-------------------------------------------------------------------------------
 
 #  Reaction 1 pre-exponential was derived from 46365 L/gs multiplied by gas space velocity of the flow @ 0.6 g of catalyst, the units have L/s representing total flow rate of reacting mixture, and g representing mass of cat
-reaction("CH4 + 2 O2 => CO2 + 2 H2O", [(27819, 'L/s'), 0, (90738, 'J/mol')],
+reaction("CH4 + 2 O2 => CO2 + 2 H2O", [(952311, '1/s'), 0, (90738, 'J/mol')],
 	order = "CH4:1 O2:0")
